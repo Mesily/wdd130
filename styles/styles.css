@@ -1,3 +1,8 @@
+main {
+    max-width: 840px;
+
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -21,6 +26,35 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
+aside {
+    background-color: gray;
+    width: 20rem;
+    padding: 1rem;
+    Margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: black;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 1px;
+    box-shadow: 0 0 30px gray;
+}
+
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid gray;
+    text-align: center;
 }
