@@ -1,6 +1,6 @@
     :root {
         --primary-color: #264653;
-        --secondary-color: #087E8B;
+        --secondary-color: #062A3A;
         --accent1-color: #F4F7F5;
 
         --accent2-color: #FFB703;
@@ -63,11 +63,11 @@
         padding: 24px;
         background-color: var(--accent2-color);
         opacity: 0.8;
-        color: #062A3A;
+        color: var(--secondary-color);
         text-align: center;
     }
 
-    article {
+    .hero article {
         position: absolute;
         bottom: 8px;
         left: 20px;
