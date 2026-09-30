@@ -39,23 +39,14 @@ div {
 }
 
 .container2 {
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    /* write declarations here */
-
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .two {
-
-    width: 100%;
     background-color: #ace;
     height: 100px;
-    text-align: center;
-
 }
 
 .container3 {
