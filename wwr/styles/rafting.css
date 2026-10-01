@@ -27,11 +27,14 @@
     }
 
     header {
+        background-color: var(--primary-color);
         display: grid;
         align-items: center;
+        margin-bottom: 12px;
     }
 
     header img {
+        background-color: #F4F7F5;
         grid-column: 1/2;
 
     }
@@ -66,6 +69,7 @@
     }
 
     nav a {
+        color: var(--accent1-color);
         text-decoration: none;
 
     }
@@ -107,6 +111,10 @@
         width: 125px;
     }
 
+    section {
+        background-color: var(--accent1-color);
+    }
+
     section h2 {
         text-align: center;
         color: var(--secondary-color);
@@ -141,6 +149,7 @@
     }
 
     footer {
+        background-color: #4F7886;
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
@@ -148,6 +157,7 @@
     }
 
     footer p {
+        color: var(--accent1-color);
         grid-column: 1/2;
     }
 
@@ -162,14 +172,17 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+
     }
 
     .socialmedia a {
         text-decoration: none;
         margin: 0 8px;
+
     }
 
     .socialmedia img {
         width: 30px;
         height: 30px;
+
     }
