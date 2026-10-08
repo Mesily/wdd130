@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | WhiteWater Rafting Company</title>
+    <meta name="description"
+      content="Contact WhiteWater Rafting Company for information about our rafting trips, reservations, and services.">
+    <meta name="author" content="Mercy Ani">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header> <img src="images/logo.png" alt="WWR logo">
+        <nav>
+            <ul class="flex">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!-- Company Information -->
+        <div class="company-info">
+            <h2>Contact Information</h2>
+            <p> <strong>Address:</strong> No 2 Akpoha Street, off Onwe Road, Abakaliki, Ebonyi
+                State, Nigeria </p>
+            <p> <strong>Phone:</strong> +234 816 420 6420 </p>
+            <p> <strong>Email:</strong> info@whitewaterrafting.com </p>
+        </div> <!-- Map and Form -->
+        <section class="contact-grid"> <!-- Map -->
+            <div class="map"> <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.4938009913485!2d8.096919173973541!3d6.330005625383764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105ca1f34ddeb09b%3A0x8f061ae2f93a1196!2sReinforced%20Global%20Resources%20Limited!5e0!3m2!1sen!2sng!4v1791489274277!5m2!1sen!2sng"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"> </iframe> </div>
+            <!-- Contact Form -->
+            <div class="form">
+                <form action="#" method="post"> <!-- Name and Email -->
+                    <fieldset>
+                        <div class="form-row"> <label for="name">Name:</label> <input type="text"
+                              id="name" name="name" required> </div>
+                        <div class="form-row"> <label for="email">Email:</label> <input type="email"
+                              id="email" name="email" required> </div>
+                    </fieldset> <!-- Purpose -->
+                    <fieldset class="purpose-fieldset">
+                        <div class="purpose-grid">
+                            <div class="purpose-title"> <span>Purpose of Message:</span> </div>
+                            <div class="purpose-options"> <label> <input type="radio" name="purpose"
+                                      value="general-inquiry" required> General Inquiry </label>
+                                <label> <input type="radio" name="purpose"
+                                      value="reservation-question"> Reservation Question </label>
+                                <label> <input type="radio" name="purpose"
+                                      value="website-suggestion"> Website Suggestion </label>
+                            </div>
+                        </div>
+                    </fieldset> <!-- Message -->
+                    <fieldset class="message-fieldset">
+                        <div class="message-title"> <span>Message:</span> </div> <textarea
+                          id="message" name="message" rows="4" required
+                          aria-label="Message"></textarea> <label class="checkbox"> <input
+                              type="checkbox" name="newsletter" value="yes"> Please subscribe me to
+                            the monthly newsletter </label>
+                    </fieldset> <!-- Submit Button --> <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section> <!-- Employees -->
+        <section class="contact-flex">
+            <div class="employees">
+                <h2>Meet Our Team</h2>
+                <figure> <img src="images/employee.webp" alt="John, rafting guide">
+                    <figcaption>John — Lead Rafting Guide</figcaption>
+                </figure>
+                <figure> <img src="images/employee.webp" alt="Sarah, reservations manager">
+                    <figcaption>Mercy — Reservations Manager</figcaption>
+                </figure>
+                <figure> <img src="images/employee.webp" alt="Michael, safety coordinator">
+                    <figcaption>James — Safety Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 | WhiteWater | Mercy Ani</p>
+        <nav class="socialmedia"> <a href="https://facebook.com"> <img src="images/facebook.svg"
+                  alt="Facebook"> </a> <a href="https://Linkedin.com"> <img
+                  src="images/linkedin.svg" alt="Linkedin"> </a> <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram"> </a> </nav>
+    </footer>
+</body>
+
+</html>
